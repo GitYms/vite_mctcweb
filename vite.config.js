@@ -38,5 +38,10 @@ export default defineConfig({
         rewrite: path => path.replace(/^\/api/, '') // 将 /api 重写为空
       }
     }
+  },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src') // src 路径
+    }
   }
 })

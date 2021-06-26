@@ -12,11 +12,11 @@ import About from '../container/About'
 const routes = [
   {
     path: "/",
-    component: Index
+    component: Index,
   },
   {
     path: "/about",
-    component: About
+    component: About,
   }
 ];
 
