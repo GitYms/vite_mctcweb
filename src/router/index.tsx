@@ -6,13 +6,13 @@
  * @Description: In User Settings Edit
  * @FilePath: \vite-react-app\src\router\index.tsx
  */
-import Index from '../container/Index'
 import About from '../container/About'
+import Home from '../container/Home'
 
 const routes = [
   {
-    path: "/",
-    component: Index,
+    path: "/home",
+    component: Home,
   },
   {
     path: "/about",

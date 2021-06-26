@@ -6,7 +6,7 @@ import fs from 'fs'
 import lessToJS from 'less-vars-to-js'
 
 const themeVariables = lessToJS(
-  fs.readFileSync(path.resolve(__dirname, './config/variables.less'), 'utf8')
+  fs.readFileSync(path.resolve(__dirname, './src/config/variables.less'), 'utf8')
 )
 
 // https://vitejs.dev/config/
